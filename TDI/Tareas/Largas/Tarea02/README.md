@@ -1,6 +1,10 @@
-# HTML 5
+# Tarea 2 - HTML 5
+
+## Descripción
 
 Tarea larga en donde se hace uso de imagenes, listas, tablas, enlaces y etiquetas como main, article , section para la creación de un sitio web utilizando HTML5.
+
+## Screenshots
 
 ## Autores
 * Cruz González Irvin Javier

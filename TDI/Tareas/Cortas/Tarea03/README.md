@@ -4,7 +4,8 @@
 
 Tarea corta en donde se hace una extención de la tarea corta 01 "HTML básico" para agregarle estilos(CSS)
 
-## SS
+## Screenshots
+![""](/html.png)
 
 
 ## Autores

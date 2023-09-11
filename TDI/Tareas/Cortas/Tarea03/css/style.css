@@ -1,7 +1,18 @@
 body{
     margin: 0%;
     text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
+}
+
+#subrayado{
+    text-decoration: underline rgb(73, 181, 156);
+    text-align: justify;
+}
+
+h1{
+    color: rgb(182, 47, 92);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
@@ -12,6 +23,7 @@ body{
     border: 5px solid pink;
     background-color: rgba(208, 227, 103, 0.2);
     margin: 20px;
+    border-radius:45px;
 }
 
 .box1{
@@ -20,12 +32,15 @@ body{
     height: 30%;
     border: 5px solid rgb(215, 52, 79);
     background-color: rgba(282, 157, 249, 0.2);
+    border-radius:45px;
+    margin-bottom: 1%;
 }
 
 
-h4{
-    border: 2px solid red  ;
+#curiosidad{
+    border: 3px solid red  ;
     display: inline-block;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
+    border-radius: 45px;
     
 }

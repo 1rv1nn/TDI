@@ -10,9 +10,20 @@ body{
     text-align: justify;
 }
 
+
 h1{
     color: rgb(182, 47, 92);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    color: rgb(182, 47, 92);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3{
+    color: rgb(182, 47, 92);
+    font-family:'Times New Roman', Times, serif;
 }
 
 
@@ -42,5 +53,11 @@ h1{
     display: inline-block;
     margin-bottom: 1%;
     border-radius: 45px;
+    background-color: rgba(72, 223, 160, 0.2);
     
+}
+
+a{
+    border: 3px solid rgb(105, 139, 202)  ;
+    margin-right: 10px; 
 }

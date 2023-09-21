@@ -3,7 +3,7 @@
 ## Descripción
 
 Tarea larga que se hace uso de HTML y Bootstrap para elaborar un sitio web  para una tienda de ensaladas.
-Soy feliz.
+Soy feliz y guapa.
 
 
 ## Autores

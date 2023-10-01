@@ -7,13 +7,14 @@
         <meta name="description" content="">
         <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
         <meta name="generator" content="Hugo 0.118.2">
-        <title>Inventario Cereal</title>
+        <title>Formulario Inventario</title>
         <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
         <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">       
       </head>
 <body>
+
     <header>
         <ul class="nav justify-content-center">
           <li class="nav-item">
@@ -23,26 +24,23 @@
             <a class="nav-link active" href="../recetas/recetas.html">Recetas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="inventarioCereales.html">Inventario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="inventario.html">Inventario</a>
           </li>
         </ul>
       </header>
 
-      <div class="container">
+      <div class="contenedor">
         <h2>Formulario Inventario</h2>
       <form>
         <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Código</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="codigo producto">
+          <div class="form-group col-md-3 ">
+            <label for="text">Código</label>
+            <input type="text" class="form-control" id="codigoProducto" placeholder="código producto">
           </div>
         </div>
           <div class="form-group col-md-4">
             <label for="inputState">Existencia(kg)</label>
-            <select id="inputState" class="form-control">
+            <select id="existenicia" class="form-control">
               <option selected>Selecciona</option>
               <option>1</option>
               <option>2</option>
@@ -68,13 +66,19 @@
           </div>
           <div class="form-group col-md-6">
             <label for="inputEmail4">Costo($)</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="costo">
+            <input type="text" class="form-control" id="costo" placeholder="costo">
           </div>
           <label for="inputState">Fecha de adquisición</label> <br>
           <input type="date" value="2017-06-01" /> <br>
 
-        <button type="submit" class="btn btn-primary">Modificar</button>
+          <div class="submitF">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
       </form>
+
+      <a href="inventario.html">
+        <button class="button">Atrás</button>
+      </a>
     </div>
 
 </body>

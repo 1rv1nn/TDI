@@ -1,23 +1,22 @@
 body{
-background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #E0EAFC;
 }
 
-.card-body{
-  background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  
+.card-body{
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  
+background: linear-gradient(to right, #CFDEF3, #E0EAFC);
 }
 
 .btn-group{
-  background-color: #67B26F;
+  background-color: #f0b1bf;
+  font-family: 'Courier New', Courier, monospace;
+  font: optional;
 }
 
 .nav-link{
-  color: black;
+  color: white
 }
 
 .bd-placeholder-img {
@@ -61,6 +60,9 @@ background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, F
     display: block !important;
   }
 
+ p{
+  color: white;
+ }
 /* Estilos de recetas */
 
 /* GLOBAL STYLES
@@ -203,51 +205,80 @@ h1 , h2{
   text-align: center;
   margin-top: 1%;
   margin-bottom: 2%;
+  color: #E0EAFC;
 }
 
-.salad{
-  display: block;
-  margin-left: 20%;
-  margin-top: 2%;
+.container-move{
+  margin-left: 10%;
 }
 
-ol.border {
-  list-style-type: none;
-  list-style-type: decimal !ie;     
-  margin: 0;
-  margin-left: 3em;
-  padding: 0;     
-  counter-reset: li-counter;
+.imgR{
+  width: 80%;
+  height: 55%;
+  margin-top: 50%;
+  margin-left: 10%;
 }
 
-ol.border > li{
-  position: relative;
-  margin-bottom: 20px;
-  padding-left: 0.5em;
-  min-height: 3em;
-  border-left: 2px solid #bc1b1b;
+
+.container-move2 {
+  margin-left: 10%;
+ 
 }
 
-ol.border > li:before {
-  position: absolute;
-  top: 0;
-  left: -1em;
-  width: 0.8em;     
-  font-size: 3em;
-  line-height: 1;
-  font-weight: bold;
-  text-align: right;
-  color: #00796B; 
-  content: counter(li-counter);
-  counter-increment: li-counter;
+
+.list-wrap {
+  padding:40px;
+  background-color:#d8b9c3;
+  border-radius:5px;
+  width:900px;
+  margin-left: 10%;
 }
+
+.list-wrapp{
+  padding:40px;
+  background-color:#b9d8bd;
+  border-radius:5px;
+  width:900px;
+  margin-left: 10%;
+}
+
+div.list {
+  counter-reset: list-number;
+}
+div.list div:before {
+  counter-increment: list-number;
+  content: counter(list-number);
+  
+  margin-right: 10px;
+  margin-bottom:10px;
+  width:35px;
+  height:35px;
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  font-size:16px;
+  background-color:#d7385e;
+  border-radius:50%;
+  color:#fff;
+}
+
+
 
 /* Tabla */
 
-.containerDos{
+.containerTable{
   margin-top: 3%;
   text-align: center;
+  color: black;
 }
+
+.text-h2{
+  text-align: center;
+  color: white;  
+  margin-bottom: 2%;
+}
+
+
 
 
 .table table-bordered, th, td {
@@ -270,10 +301,47 @@ ol.border > li:before {
   .center {
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 15%; 
+    margin-top: 15container; 
   }
 
   .seleccion{
     margin-left: 2%;
   }
 
+  /**Inventario */
+  .inventarioLista{
+    display: inline;
+  }
+
+  .buttonA{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: #66a3e6;
+    border-radius: 10px;
+  }
+
+  /**Formulario*/
+ 
+  form{
+    color: white;
+  }
+
+  .contenedor{
+    width: 50%; /* adjust to desired width */
+    margin: 0 auto; /* center the container */
+  }
+
+.submitF{
+  margin-top: 3%;
+}
+
+.buttonAtras{
+  margin-left: 23%;
+}
+
+  /*Accesibilidad*/
+  .button{
+    background-color: #d7385e;
+    margin-left: 90%;
+    margin-top: 5%;
+  }

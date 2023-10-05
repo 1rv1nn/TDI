@@ -6,7 +6,7 @@ Tarea larga que se hace uso de HTML y Bootstrap para elaborar un sitio web  para
 
 ## Screenshots
 <img src="./ss/ss1.png" width=40% height=60%>
-<img src="./ss/ss2.jpg" width=40% height=60%>
+<img src="./ss/ss2.png" width=40% height=60%>
 
 
 ## Autores

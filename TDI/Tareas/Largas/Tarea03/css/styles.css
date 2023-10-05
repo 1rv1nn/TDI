@@ -9,6 +9,8 @@ background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
 background: linear-gradient(to right, #CFDEF3, #E0EAFC);
 }
 
+
+
 .btn-group{
   background-color: #f0b1bf;
   font-family: 'Courier New', Courier, monospace;
@@ -201,7 +203,7 @@ body {
 }
 
 /* Sección Recetas */
-h1 , h2{
+h1 , h2,h3{
   text-align: center;
   margin-top: 1%;
   margin-bottom: 2%;
@@ -218,6 +220,18 @@ h1 , h2{
   margin-top: 50%;
   margin-left: 10%;
 }
+
+.imgRe{
+  width: 80%;
+  height: 55%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.container-breadcrumb{
+  margin-left: 5%;
+}
+
 
 
 .container-move2 {
@@ -344,4 +358,9 @@ div.list div:before {
     background-color: #d7385e;
     margin-left: 90%;
     margin-top: 5%;
+  }
+
+  .rol{
+    color: white;
+    margin-left: 5%;
   }
